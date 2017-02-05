@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Emo Clash
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card padding>
+    <ion-card-title>Select Emotion Type</ion-card-title>
+    <ion-card-content>
+      <ion-list>
+        <button ion-item *ngFor="let emotion of emotionTypes" (click)="pickEmotionType(emotion)">
+          {{emotion.display}}
+        </button>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -24,8 +24,8 @@
   </ion-card>
   <ion-list margin-top padding>
     <ion-list-header>Top Scores</ion-list-header>
-    <button ion-item *ngFor="let post of topPosts" (click)="viewPost(post.key)">
+    <ion-item *ngFor="let post of topPosts" (click)="viewPost(post.key)">
       Score: {{post.val['score']}}
-    </button>
+    </ion-item>
   </ion-list>
 </ion-content>

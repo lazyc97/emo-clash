@@ -4,17 +4,16 @@
       Emo Clash
     </ion-title>
   </ion-navbar>
+
+  <ion-toolbar color="secondary">
+    <ion-title>Select Emotion Type</ion-title>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card padding>
-    <ion-card-title>Select Emotion Type</ion-card-title>
-    <ion-card-content>
-      <ion-list>
-        <button ion-item *ngFor="let emotion of emotionTypes" (click)="pickEmotionType(emotion)">
-          {{emotion.display}}
-        </button>
-      </ion-list>
-    </ion-card-content>
-  </ion-card>
+  <ion-list>
+    <ion-item *ngFor="let emotion of emotionTypes" (click)="pickEmotionType(emotion)">
+      {{emotion.display}}
+    </ion-item>
+  </ion-list>
 </ion-content>

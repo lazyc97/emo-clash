@@ -18,4 +18,8 @@ export class HomePage {
   pickEmotionType(emotion) {
     this.navCtrl.push(EmotionHomePage, emotion);
   }
+
+  getImageLink(emo) {
+    return `assets/emotions/${emo}.png`;
+  }
 }

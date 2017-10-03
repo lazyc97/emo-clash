@@ -31,5 +31,5 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 
-# API keys exports
-src/services/api-keys.ts
+.sourcemaps/
+typings/modules/

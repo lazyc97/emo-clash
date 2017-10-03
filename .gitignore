@@ -33,3 +33,4 @@ UserInterfaceState.xcuserstate
 
 .sourcemaps/
 typings/modules/
+config/env.json

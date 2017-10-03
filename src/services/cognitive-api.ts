@@ -2,13 +2,11 @@ import { Injectable } from '@angular/core';
 import { Http, Headers } from '@angular/http';
 import 'rxjs';
 
-import { ApiKeys } from './api-keys';
-
 @Injectable()
 export class CognitiveApi {
 
   // Microsoft Cognitive Service API key & Url
-  private static apiKey = ApiKeys.MicrosoftEmotion;
+  private static apiKey = process.env.MicrosoftEmotion;
   private static apiUrl = 'https://westus.api.cognitive.microsoft.com/emotion/v1.0/recognize';
 
   // Header for requests

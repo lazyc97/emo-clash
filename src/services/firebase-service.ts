@@ -1,13 +1,12 @@
 import { Injectable } from '@angular/core';
 import * as firebase from 'firebase';
 import { Utilities, CognitiveApi } from "./services";
-import { ApiKeys } from './api-keys';
 
 @Injectable()
 export class FirebaseService {
 
   constructor(public cognitiveApi: CognitiveApi) {
-    firebase.initializeApp(ApiKeys.FirebaseConfig);
+    firebase.initializeApp(process.env.FirebaseConfig);
   }
 
   // Get posts with highest scores

@@ -13,7 +13,7 @@
 <ion-content>
   <ion-list>
     <ion-item *ngFor="let emotion of emotionTypes" (click)="pickEmotionType(emotion)">
-      <ion-thumbnail item-left>
+      <ion-thumbnail item-start>
         <img [src]="getImageLink(emotion.emo)">
       </ion-thumbnail>
       <ion-title>{{emotion.display}}</ion-title>

@@ -8,6 +8,17 @@ yarn
 yarn run typings install
 ```
 
+Create `config/env.json` with following format:
+``` json
+{
+  "MicrosoftEmotion": "Your API key",
+  "FirebaseConfig": {
+    // firebase config object for web, include "apiKey", "authDomain", ...
+    // require anonymous authentication enabled
+  }
+}
+```
+
 Currently there is a bug in Cordova causing 4-spaces indentation in `config.xml` and `package.json`, please convert them before commit.
 
 ## TODO:

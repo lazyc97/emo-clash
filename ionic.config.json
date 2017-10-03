@@ -1,6 +1,8 @@
 {
   "name": "Emo Clash",
   "app_id": "498386ac",
-  "v2": true,
-  "typescript": true
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
 }

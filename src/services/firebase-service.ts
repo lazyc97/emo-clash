@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as firebase from 'firebase';
-import { Utilities, CognitiveApi } from "./services";
+import { Utilities, CognitiveApi } from './services';
 
 @Injectable()
 export class FirebaseService {

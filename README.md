@@ -9,7 +9,7 @@ yarn run typings install
 ```
 
 Create `config/env.json` with following format:
-``` json
+``` javascript
 {
   "MicrosoftEmotion": "Your API key",
   "FirebaseConfig": {
@@ -19,9 +19,7 @@ Create `config/env.json` with following format:
 }
 ```
 
-Currently there is a bug in Cordova causing 4-spaces indentation in `config.xml` and `package.json`, please convert them before commit.
+Get your free API key for [Firebase](https://firebase.google.com/) and [Microsoft Emotion API](https://azure.microsoft.com/en-us/try/cognitive-services/#vision).
 
-## TODO:
-- [ ] Option not to publish after picture is taken.
-- [ ] Resize picture before upload.
-- [ ] Enable authentication to access your own published pictures.
+### Note
+- Currently there is a bug in Cordova causing 4-spaces indentation in `config.xml` and `package.json`, please convert them before commit.

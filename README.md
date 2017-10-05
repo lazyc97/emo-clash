@@ -5,7 +5,6 @@ A mobile app to measure your expression using Microsoft Cognitive API.
 To setup:
 ``` bash
 yarn
-yarn run typings install
 ```
 
 Create `config/env.json` with following format:

@@ -6,8 +6,9 @@ node_js:
   - "node"
 
 install:
-  - npm install
+  - yarn
 
 script:
-  - npm run clean
-  - npm run build
+  - yarn run clean
+  - yarn run lint
+  - yarn run build

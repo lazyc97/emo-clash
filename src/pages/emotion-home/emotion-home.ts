@@ -3,7 +3,7 @@ import { NavController, NavParams, AlertController, LoadingController } from 'io
 import { Camera } from 'ionic-native';
 
 import { FirebaseService } from '../../services/services';
-import { Utilities } from "../../services/utilities";
+import { Utilities } from '../../services/utilities';
 import { ResultViewPage } from '../pages';
 
 /*

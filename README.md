@@ -19,6 +19,3 @@ Create `config/env.json` with following format:
 ```
 
 Get your free API key for [Firebase](https://firebase.google.com/) and [Microsoft Emotion API](https://azure.microsoft.com/en-us/try/cognitive-services/#vision).
-
-### Note
-- Currently there is a bug in Cordova causing 4-spaces indentation in `config.xml` and `package.json`, please convert them before commit.

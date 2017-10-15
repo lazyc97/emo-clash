@@ -32,4 +32,5 @@ Thumbs.db
 UserInterfaceState.xcuserstate
 
 .sourcemaps/
+prepare/
 config/env.json

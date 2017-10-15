@@ -19,3 +19,6 @@ Create `config/env.json` with following format:
 ```
 
 Get your free API key for [Firebase](https://firebase.google.com/) and [Microsoft Emotion API](https://azure.microsoft.com/en-us/try/cognitive-services/#vision).
+
+### Note
+- `@ionic-native/camera` doesn't work with `ionic:serve` so do `ionic cordova build browser` and open `platforms/browser/www/index.html` to test camera.
